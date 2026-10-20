@@ -4,6 +4,12 @@ A party game for friends, in English and French. Everyone writes one anecdote. T
 
 ## Play
 
+The game is online for good at **https://who-did-that.onrender.com**. Open it, create a game and send the invite link to your friends. If nobody has played for about 15 minutes, the first visit takes up to a minute while the server wakes up.
+
+After changing the code: push to GitHub, then in Render open the who-did-that service and choose **Manual Deploy → Deploy latest commit**.
+
+## Play from your own PC instead
+
 1. Double-click **start-game.bat**.
 2. The first time, it offers to install Cloudflare's free tunnel tool (`cloudflared`). Say yes: it's what gives you a link your friends can open from anywhere.
 3. A browser opens on the game, and the window prints a link like `https://something.trycloudflare.com`. Create a game. The waiting room shows the invite link: send it to your friends.

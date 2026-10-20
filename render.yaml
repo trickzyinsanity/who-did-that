@@ -1,0 +1,9 @@
+# Render blueprint: one free web service running the game server.
+services:
+  - type: web
+    name: who-did-that
+    runtime: node
+    plan: free
+    buildCommand: npm install --omit=dev
+    startCommand: node server.js
+    healthCheckPath: /healthz
